@@ -28,5 +28,8 @@ public final class Constants {
     
     public static final double intakeinspeed = 0.5;
     public static final double intakeoutspeed = -0.8;
-    
+    public static final double armtop = 69;
+    public static final double armbottom = 109.5;
+    public static final double wristtop = 5.5;
+    public static final double wristbottom = 56.4;
 }
