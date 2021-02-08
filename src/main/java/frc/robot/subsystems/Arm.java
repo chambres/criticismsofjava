@@ -2,7 +2,7 @@ import edu.wpi.first.wpilibj2.command.SubsystemBase;
 import frc.robot.Constants;
 import frc.robot.SteelTalonsController;
 
-public void checkin(){
+public boolean checkin(){
     if ((Robot.armPot.get() >= Constants.armtop) || (Robot.armPot.get() <= Constants.armbottom)){
         return false; //stops it i think
     }
