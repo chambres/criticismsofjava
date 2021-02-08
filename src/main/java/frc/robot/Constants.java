@@ -16,7 +16,17 @@ package frc.robot;
  * constants are needed, to reduce verbosity.
  */
 public final class Constants {
-
-
+    public static final int leftoneport = 0;
+    public static final int lefttwoport = 1;
+    public static final int rightoneport = 2;
+    public static final int rightwoport = 3;
+    public static final int intakleftport = 4;
+    public static final int intakerightport = 5 ;    
+    
+    public static final int INTAKE_IN_BUTTON = 7;
+    public static final int INTAKE_OUT_BUTTON = 8;
+    
+    public static final double intakeinspeed = 0.5;
+    public static final double intakeoutspeed = -0.8;
     
 }
