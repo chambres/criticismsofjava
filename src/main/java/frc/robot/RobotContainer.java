@@ -108,5 +108,12 @@ public class RobotContainer {
   public Joystick getJoystick(){
     return joy;
   }
+ 
   
+  
+  public static Arm getArm() {return arm;}
+  public static Wrist getWrist() {return wrist;}
+  public static Intake getIntake() {return intake;}
+  public static Hatch getHatch() {return hatch;}
+  public static DriveTrain geDriveTrain(){return driveTrain;} //thx victoria
 }
